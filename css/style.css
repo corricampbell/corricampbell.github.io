@@ -1,0 +1,179 @@
+*{margin: 0;padding: 0;}
+body {
+	font-family: 'Raleway', serif;
+}
+.banner{
+	background: #96858f;
+	width: 100%;
+	padding: 15% 0;
+	background-size: cover;
+	font-family: 'Raleway', serif;
+	color: #fff;
+	text-align: center;
+}
+
+.banner h1{
+	font-size: 5em;
+}
+
+.banner p{
+	font-size: 2em;
+}
+
+.top-bar{
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+.logo{
+	color: #000;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	padding: 18px;
+	text-transform: uppercase;
+}
+
+.menu{
+	-webkit-box-flex:3;
+	-webkit-flex:3;
+	-ms-flex:3;
+	flex:3;
+}
+
+.menu ul{
+	display: -webkit-box;
+	display: webkit-flex;
+	display: ms-flexbox;
+	display: flex;
+	list-style: none;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	font-family: 'Raleway', sans-serif;
+	align-items: center;
+	height: 100%;
+}
+
+.menu ul li{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: center;
+
+}
+
+.menu ul li a{
+	color: #000;
+	font-size: 20px;
+	text-decoration: none;
+}
+ 
+/*.banner-text-items h2{
+font-size: 3em;
+margin-bottom: 20 px;
+text-transform: uppercase;
+}
+
+.banner-text-items p{
+font-size: 18px; 
+}*/
+
+.banner-image{
+    width: 15%;
+}
+.main-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 1px;
+	grid-row-gap: 1px:;
+	background-color: white;
+	padding: 3em 0;
+}
+
+.project {
+	width: 100%;
+	text-align: center;
+}
+
+.project h2 a {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact {
+	background-color: grey;
+	color: white;
+	padding: 35px;
+}
+
+.contact h2 {
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+.contact-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-icons img {
+	width: 100%;
+	max-width: 35px;
+	height: auto;
+	padding: 0 15px;
+}
+
+
+.carousel-wrapper {
+  height: 350px;
+  width: 390px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.button-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease;
+}
+
+.card {
+  background: black;
+  min-width: 350px;
+  height: 300px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.card:first-of-type {
+	margin-left: 20px;
+}

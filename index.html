@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href./css/styles.css">
-</head>
-<body>
+<lang="en">
 
-	<h1>testing .... 1,2,3</h1>
+	<head>
+		<meta charset="UTF-8">
+		<title>Corri Campbell | Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
 
-</body>
+	<body>
+		<div class="container">
+			<nav class="top-bar">
+				<div class="logo">Corri Campbell</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Resume</a></li>
+					</ul>
+				</div>
+			</nav>
+			<header class="banner">
+				<h1>Front-End Developer</h1>
+				<p>HTML. CSS. JavaScript.</p>
+			 </header>
+			<main class="main-content">
+				<article class="project">
+					<h2>
+						<a href="https://github.com/corricampbell/fortune-teller">
+							<img class="banner-image" src="images/crystal-ball.png" alt="Crystal Ball" />
+							Fortune Teller Project
+						</a>
+					</h2>
+					<section>
+						<p>This was a basic java project.</p>
+					</section>
+				</article>
+				<article class="project">
+					<h2><a href="https://github.com/corricampbell/fortune-teller">
+					<img class="banner-image" src="images/paw.png" alt="Paw" />
+				Virtual Pet Shelter Project
+					</a>
+					</h2>	
+					<section>
+						<p>This was an intermediate java project.</p>
+					</section>
+				</article>
+				<article class="project">
+					<h2><a href="https://github.com/corricampbell/fortune-teller">
+					<img class="banner-image" src="images/palm-tree.png" alt="Palm Tree" />
+					Maui Restaurant Reviews</a></h2>
+					<section>
+						<p id="paragraph">This combined java and HTML skills.</p>
+					</section>
+				</article>
+			</main>
+			<aside class="carousel-wrapper">
+				<ul class="carousel" data-target="carousel">
+    				<li class="card" data-target="card"></li>
+    				<li class="card" data-target="card"></li>
+    				<li class="card" data-target="card"></li>
+    			</ul>
+    			<div class="button-wrapper">
+	    			<button data-action="slideLeft">&larr;</button>
+	    			<button data-action="slideRight">&rarr;</button>
+	 			</div>
+			</aside>
+			<footer class="contact">
+				<div class="contact-text">
+					<div class="contact-items">
+						<div class="contact-icons">
+							<a href="mailto:youremail@email.com"><img src="images/linkedin.png" class="email"></a>
+							<a href=""><img src="images/linkedin.png" class="linkedIn"></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
 </html>
